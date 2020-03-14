@@ -1,0 +1,11 @@
+C:\SourceCode\CD\CasosPrueba\CP.Infrastructure\bin\Debug\netcoreapp3.1\CP.Core.deps.json
+C:\SourceCode\CD\CasosPrueba\CP.Infrastructure\bin\Debug\netcoreapp3.1\CP.Core.dll
+C:\SourceCode\CD\CasosPrueba\CP.Infrastructure\bin\Debug\netcoreapp3.1\CP.Core.pdb
+C:\SourceCode\CD\CasosPrueba\CP.Infrastructure\obj\Debug\netcoreapp3.1\CP.Core.csprojAssemblyReference.cache
+C:\SourceCode\CD\CasosPrueba\CP.Infrastructure\obj\Debug\netcoreapp3.1\CP.Core.AssemblyInfoInputs.cache
+C:\SourceCode\CD\CasosPrueba\CP.Infrastructure\obj\Debug\netcoreapp3.1\CP.Core.AssemblyInfo.cs
+C:\SourceCode\CD\CasosPrueba\CP.Infrastructure\obj\Debug\netcoreapp3.1\CP.Core.dll
+C:\SourceCode\CD\CasosPrueba\CP.Infrastructure\obj\Debug\netcoreapp3.1\CP.Core.pdb
+C:\SourceCode\CD\CasosPrueba\CP.Infrastructure\bin\Debug\netcoreapp3.1\CP.Entity.dll
+C:\SourceCode\CD\CasosPrueba\CP.Infrastructure\bin\Debug\netcoreapp3.1\CP.Entity.pdb
+C:\SourceCode\CD\CasosPrueba\CP.Infrastructure\obj\Debug\netcoreapp3.1\CP.Core.csproj.CopyComplete

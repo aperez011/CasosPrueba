@@ -1,0 +1,8 @@
+C:\SourceCode\CD\CasosPrueba\CP.Entity\bin\Debug\netcoreapp3.1\CP.Entity.deps.json
+C:\SourceCode\CD\CasosPrueba\CP.Entity\bin\Debug\netcoreapp3.1\CP.Entity.dll
+C:\SourceCode\CD\CasosPrueba\CP.Entity\bin\Debug\netcoreapp3.1\CP.Entity.pdb
+C:\SourceCode\CD\CasosPrueba\CP.Entity\obj\Debug\netcoreapp3.1\CP.Entity.AssemblyInfoInputs.cache
+C:\SourceCode\CD\CasosPrueba\CP.Entity\obj\Debug\netcoreapp3.1\CP.Entity.AssemblyInfo.cs
+C:\SourceCode\CD\CasosPrueba\CP.Entity\obj\Debug\netcoreapp3.1\CP.Entity.dll
+C:\SourceCode\CD\CasosPrueba\CP.Entity\obj\Debug\netcoreapp3.1\CP.Entity.pdb
+C:\SourceCode\CD\CasosPrueba\CP.Entity\obj\Debug\netcoreapp3.1\CP.Entity.csprojAssemblyReference.cache
