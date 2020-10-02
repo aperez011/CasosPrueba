@@ -1,0 +1,105 @@
+﻿@page //"{id}"
+@model CP.UI.AddXmlTypeModel
+@{
+    ViewData["Title"] = "Agregar eCF";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<p><a href="/Config/XmlTypes" class="btn btn-outline-info">Back</a></p>
+<form method="post">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-lg-6 col-sm-6">
+                <label>Numero Ecf</label>
+                <input type="text" class="form-control form-control-sm" />
+            </div>
+            <div class="col-md-6 col-lg-6 col-sm-6">
+                <br />
+                <input type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#_section" value="Agregar Section" />
+            </div>
+        </div>
+        <hr />
+        <div class="row border rounded" style="padding: 10px 0px 10px 0px;">
+            <div class="col-md-12 col-lg-12 col-sm-12">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <td style="width:5%">
+                                #
+                            </td>
+                            <td style="width:35%">
+                                Name
+                            </td>
+                            <td style="width:20%">
+                                Order
+                            </td>
+                            <td style="width:40%">
+                                Actions
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @{
+                            foreach (var (_sec, indx) in Model.Sections.Select((value, i)=>(value,i)))
+                            {
+                                <tr>
+                                    <td>
+                                        @(indx+1)
+                                    </td>
+                                    <td>
+                                        @_sec.Name
+                                    </td>
+                                    <td>
+                                        @_sec.Order
+                                    </td>
+                                    <td>
+                                        <input type="submit" asp-page-handler="Test" class="btn btn-outline-secondary" value="Add Field" />
+                                        <input type="hidden" value="@_sec.Name" id="Name" />
+                                        <input type="button" onclick="Test" class="btn btn-outline-dark" value="Add Table" /> |
+                                        <input type="button" class="btn btn-outline-danger" value="Remove" />
+                                    </td>
+                                </tr>
+                            }
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        @*Modal test*@
+
+        <div class="modal fade" id="_section" tabindex="-1" aria-hidden="true" style="display:none;">
+            <div class="modal-dialog modal-md modal-primary" role="alert">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button class="close" type="button" aria-label="Close" data-dismiss="modal">
+                            <span aria-hidden="true">×</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row border rounded" style="padding: 10px 0px 10px 0px;">
+                            <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+                                <label>Nombre</label>
+                                <input class="form-control" asp-for="Section.Name" />
+                                @*@*<input type="text" class="form-control" value="@Model.Section.Name" />*@
+                                <label>Orden</label>
+                                <input class="form-control" asp-for="Section.Order" />
+                                @Html.ValidationMessageFor(x => x.Section.Order, null, new { @class = "text-danger" })
+                                @*<input type="text" maxlength="2" class="form-control" value="@Model.Section.Order" />*@
+                            </div>
+                        </div>
+                        <!-- /.modal-content-->
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-outline-success" type="submit" asp-page-handler="AddSection">Guardar</button>
+                        <button class="btn btn-outline-danger" type="button" aria-label="Close" data-dismiss="modal">
+                            <span aria-hidden="true">Cancelar</span>
+                        </button>
+                    </div>
+                    <!-- /.modal-dialog-->
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+

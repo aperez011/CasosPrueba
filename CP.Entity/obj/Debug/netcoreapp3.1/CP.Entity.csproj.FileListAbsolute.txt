@@ -6,3 +6,11 @@ C:\SourceCode\CD\CasosPrueba\CP.Entity\obj\Debug\netcoreapp3.1\CP.Entity.Assembl
 C:\SourceCode\CD\CasosPrueba\CP.Entity\obj\Debug\netcoreapp3.1\CP.Entity.dll
 C:\SourceCode\CD\CasosPrueba\CP.Entity\obj\Debug\netcoreapp3.1\CP.Entity.pdb
 C:\SourceCode\CD\CasosPrueba\CP.Entity\obj\Debug\netcoreapp3.1\CP.Entity.csprojAssemblyReference.cache
+C:\SourceCode\CP\CP.Entity\bin\Debug\netcoreapp3.1\CP.Entity.deps.json
+C:\SourceCode\CP\CP.Entity\bin\Debug\netcoreapp3.1\CP.Entity.dll
+C:\SourceCode\CP\CP.Entity\bin\Debug\netcoreapp3.1\CP.Entity.pdb
+C:\SourceCode\CP\CP.Entity\obj\Debug\netcoreapp3.1\CP.Entity.csprojAssemblyReference.cache
+C:\SourceCode\CP\CP.Entity\obj\Debug\netcoreapp3.1\CP.Entity.AssemblyInfoInputs.cache
+C:\SourceCode\CP\CP.Entity\obj\Debug\netcoreapp3.1\CP.Entity.AssemblyInfo.cs
+C:\SourceCode\CP\CP.Entity\obj\Debug\netcoreapp3.1\CP.Entity.dll
+C:\SourceCode\CP\CP.Entity\obj\Debug\netcoreapp3.1\CP.Entity.pdb

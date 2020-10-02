@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace CP.Core
 {
@@ -10,8 +11,8 @@ namespace CP.Core
 
         IEnumerable<TEntity> GetAll();
         IEnumerable<TEntity> FindBy(Expression<Func<TEntity, bool>> condition);
-        TEntity GetByGID(Guid guid);
-        void Insert(TEntity entity);
-        void Delete(TEntity entity);
+        TEntity GetByGID(Guid gid);
+        Task Insert(TEntity entity);
+        Task Delete(Guid gid);
     }
 }

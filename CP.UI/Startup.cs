@@ -40,6 +40,7 @@ namespace CP.UI
             var localDb = Configuration["ConectionString:LocalData"];
             services.AddDbContext<DataContext>(opt => opt.UseSqlServer(localDb));
             services.AddTransient<IXmlTypeServices, XmlTypeServices>();
+            services.AddTransient<ISectionServices, SectionServices>();
 
 
         }

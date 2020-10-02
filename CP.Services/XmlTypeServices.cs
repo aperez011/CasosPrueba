@@ -6,6 +6,8 @@ using CP.Core.Interfaces;
 using CP.Data;
 using Microsoft.Extensions.Configuration;
 using System.Linq.Expressions;
+using Microsoft.Extensions.Logging;
+using System.Threading.Tasks;
 
 namespace CP.Services
 {
@@ -13,11 +15,13 @@ namespace CP.Services
     {
         private readonly DataContext _context;
         private readonly IConfiguration _conf;
+        private readonly ILogger<XmlTypeServices> _logger;
 
-        public XmlTypeServices(DataContext context, IConfiguration conf)
+        public XmlTypeServices(DataContext context, IConfiguration conf, ILogger<XmlTypeServices> logger)
         {
             _context = context;
             _conf = conf;
+            _logger = logger;
         }
 
         public IEnumerable<XmlType> GetAll()
@@ -33,15 +37,24 @@ namespace CP.Services
         {
             throw new NotImplementedException();
         }
-
-        public void Delete(XmlType entity)
+        
+        public async Task Insert(XmlType entity)
         {
-            throw new NotImplementedException();
+            try
+            {
+                _context.XmlTypes.Add(entity);
+                await _context.SaveChangesAsync();
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, ex.Message);
+                throw ex;
+            }
         }
-
-        public void Insert(XmlType entity)
+        public async Task Delete(Guid gid)
         {
             throw new NotImplementedException();
+
         }
 
         public void _TestConnection()

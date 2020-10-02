@@ -11,3 +11,16 @@ C:\SourceCode\CD\CasosPrueba\CP.Data\bin\Debug\netcoreapp3.1\CP.Data.runtimeconf
 C:\SourceCode\CD\CasosPrueba\CP.Data\bin\Debug\netcoreapp3.1\CP.Data.runtimeconfig.dev.json
 C:\SourceCode\CD\CasosPrueba\CP.Data\bin\Debug\netcoreapp3.1\CP.Data.dll
 C:\SourceCode\CD\CasosPrueba\CP.Data\bin\Debug\netcoreapp3.1\CP.Data.pdb
+C:\SourceCode\CP\CP.Data\bin\Debug\netcoreapp3.1\CP.Data.deps.json
+C:\SourceCode\CP\CP.Data\bin\Debug\netcoreapp3.1\CP.Data.runtimeconfig.json
+C:\SourceCode\CP\CP.Data\bin\Debug\netcoreapp3.1\CP.Data.runtimeconfig.dev.json
+C:\SourceCode\CP\CP.Data\bin\Debug\netcoreapp3.1\CP.Data.dll
+C:\SourceCode\CP\CP.Data\bin\Debug\netcoreapp3.1\CP.Data.pdb
+C:\SourceCode\CP\CP.Data\bin\Debug\netcoreapp3.1\CP.Entity.dll
+C:\SourceCode\CP\CP.Data\bin\Debug\netcoreapp3.1\CP.Entity.pdb
+C:\SourceCode\CP\CP.Data\obj\Debug\netcoreapp3.1\CP.Data.csprojAssemblyReference.cache
+C:\SourceCode\CP\CP.Data\obj\Debug\netcoreapp3.1\CP.Data.AssemblyInfoInputs.cache
+C:\SourceCode\CP\CP.Data\obj\Debug\netcoreapp3.1\CP.Data.AssemblyInfo.cs
+C:\SourceCode\CP\CP.Data\obj\Debug\netcoreapp3.1\CP.Data.csproj.CopyComplete
+C:\SourceCode\CP\CP.Data\obj\Debug\netcoreapp3.1\CP.Data.dll
+C:\SourceCode\CP\CP.Data\obj\Debug\netcoreapp3.1\CP.Data.pdb

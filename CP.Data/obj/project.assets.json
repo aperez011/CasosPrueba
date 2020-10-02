@@ -2365,7 +2365,7 @@
       ]
     },
     "System.Configuration.ConfigurationManager/4.5.0": {
-      "sha512": "UIFvaFfuKhLr9u5tWMxmVoDPkFeD+Qv8gUuap4aZgVGYSYMdERck4OhLN/2gulAc0nYTEigWXSJNNWshrmxnng==",
+      "sha512": "+2SYYKwbN0n+9SrBanflZdaVleFkytEfTNzOu+f3SK0vROMMrorpw1UJyHJQ1ZooughRxPmLj8Fh5N2tSe7sdA==",
       "type": "package",
       "path": "system.configuration.configurationmanager/4.5.0",
       "files": [
@@ -4124,7 +4124,7 @@
       ]
     },
     "System.Security.Cryptography.ProtectedData/4.5.0": {
-      "sha512": "wLBKzFnDCxP12VL9ANydSYhk59fC4cvOr9ypYQLPnAj48NQIhqnjdD2yhP8yEKyBJEjERWS9DisKL7rX5eU25Q==",
+      "sha512": "s/MFK8BvgtejZj5a8qAPDXEGBtWkpFX98qwQP/wqVa9CgIC7LrKHxDFdlN5x6afGAb0ZVBVGIZlCdBLnO2QjZw==",
       "type": "package",
       "path": "system.security.cryptography.protecteddata/4.5.0",
       "files": [
@@ -4957,24 +4957,27 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\aaperez\\.nuget\\packages\\": {},
+    "C:\\Users\\DEV01\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\SourceCode\\CD\\CasosPrueba\\CP.Data\\CP.Data.csproj",
+      "projectUniqueName": "C:\\SourceCode\\CP\\CP.Data\\CP.Data.csproj",
       "projectName": "CP.Data",
-      "projectPath": "C:\\SourceCode\\CD\\CasosPrueba\\CP.Data\\CP.Data.csproj",
-      "packagesPath": "C:\\Users\\aaperez\\.nuget\\packages\\",
-      "outputPath": "C:\\SourceCode\\CD\\CasosPrueba\\CP.Data\\obj\\",
+      "projectPath": "C:\\SourceCode\\CP\\CP.Data\\CP.Data.csproj",
+      "packagesPath": "C:\\Users\\DEV01\\.nuget\\packages\\",
+      "outputPath": "C:\\SourceCode\\CP\\CP.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\aaperez\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\DEV01\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -4986,8 +4989,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\SourceCode\\CD\\CasosPrueba\\CP.Entity\\CP.Entity.csproj": {
-              "projectPath": "C:\\SourceCode\\CD\\CasosPrueba\\CP.Entity\\CP.Entity.csproj"
+            "C:\\SourceCode\\CP\\CP.Entity\\CP.Entity.csproj": {
+              "projectPath": "C:\\SourceCode\\CP\\CP.Entity\\CP.Entity.csproj"
             }
           }
         }
@@ -5031,7 +5034,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

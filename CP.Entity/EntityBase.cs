@@ -7,6 +7,12 @@ namespace CP.Entity
 {
     public partial class EntityBase
     {
+        public EntityBase()
+        {
+            this.GID = Guid.NewGuid();
+            this.LogDate = DateTime.Now;
+        }
+
         [Key]
         public int Indx { get; set; }
         [Required]

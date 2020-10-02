@@ -1,24 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\SourceCode\\CD\\CasosPrueba\\CP.Services\\CP.Services.csproj": {}
+    "C:\\SourceCode\\CP\\CP.Services\\CP.Services.csproj": {}
   },
   "projects": {
-    "C:\\SourceCode\\CD\\CasosPrueba\\CP.Data\\CP.Data.csproj": {
+    "C:\\SourceCode\\CP\\CP.Data\\CP.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\SourceCode\\CD\\CasosPrueba\\CP.Data\\CP.Data.csproj",
+        "projectUniqueName": "C:\\SourceCode\\CP\\CP.Data\\CP.Data.csproj",
         "projectName": "CP.Data",
-        "projectPath": "C:\\SourceCode\\CD\\CasosPrueba\\CP.Data\\CP.Data.csproj",
-        "packagesPath": "C:\\Users\\aaperez\\.nuget\\packages\\",
-        "outputPath": "C:\\SourceCode\\CD\\CasosPrueba\\CP.Data\\obj\\",
+        "projectPath": "C:\\SourceCode\\CP\\CP.Data\\CP.Data.csproj",
+        "packagesPath": "C:\\Users\\DEV01\\.nuget\\packages\\",
+        "outputPath": "C:\\SourceCode\\CP\\CP.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\aaperez\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\DEV01\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -30,8 +32,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\SourceCode\\CD\\CasosPrueba\\CP.Entity\\CP.Entity.csproj": {
-                "projectPath": "C:\\SourceCode\\CD\\CasosPrueba\\CP.Entity\\CP.Entity.csproj"
+              "C:\\SourceCode\\CP\\CP.Entity\\CP.Entity.csproj": {
+                "projectPath": "C:\\SourceCode\\CP\\CP.Entity\\CP.Entity.csproj"
               }
             }
           }
@@ -75,25 +77,27 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\SourceCode\\CD\\CasosPrueba\\CP.Entity\\CP.Entity.csproj": {
+    "C:\\SourceCode\\CP\\CP.Entity\\CP.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\SourceCode\\CD\\CasosPrueba\\CP.Entity\\CP.Entity.csproj",
+        "projectUniqueName": "C:\\SourceCode\\CP\\CP.Entity\\CP.Entity.csproj",
         "projectName": "CP.Entity",
-        "projectPath": "C:\\SourceCode\\CD\\CasosPrueba\\CP.Entity\\CP.Entity.csproj",
-        "packagesPath": "C:\\Users\\aaperez\\.nuget\\packages\\",
-        "outputPath": "C:\\SourceCode\\CD\\CasosPrueba\\CP.Entity\\obj\\",
+        "projectPath": "C:\\SourceCode\\CP\\CP.Entity\\CP.Entity.csproj",
+        "packagesPath": "C:\\Users\\DEV01\\.nuget\\packages\\",
+        "outputPath": "C:\\SourceCode\\CP\\CP.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\aaperez\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\DEV01\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -130,25 +134,27 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\SourceCode\\CD\\CasosPrueba\\CP.Infrastructure\\CP.Core.csproj": {
+    "C:\\SourceCode\\CP\\CP.Infrastructure\\CP.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\SourceCode\\CD\\CasosPrueba\\CP.Infrastructure\\CP.Core.csproj",
+        "projectUniqueName": "C:\\SourceCode\\CP\\CP.Infrastructure\\CP.Core.csproj",
         "projectName": "CP.Core",
-        "projectPath": "C:\\SourceCode\\CD\\CasosPrueba\\CP.Infrastructure\\CP.Core.csproj",
-        "packagesPath": "C:\\Users\\aaperez\\.nuget\\packages\\",
-        "outputPath": "C:\\SourceCode\\CD\\CasosPrueba\\CP.Infrastructure\\obj\\",
+        "projectPath": "C:\\SourceCode\\CP\\CP.Infrastructure\\CP.Core.csproj",
+        "packagesPath": "C:\\Users\\DEV01\\.nuget\\packages\\",
+        "outputPath": "C:\\SourceCode\\CP\\CP.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\aaperez\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\DEV01\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -160,8 +166,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\SourceCode\\CD\\CasosPrueba\\CP.Entity\\CP.Entity.csproj": {
-                "projectPath": "C:\\SourceCode\\CD\\CasosPrueba\\CP.Entity\\CP.Entity.csproj"
+              "C:\\SourceCode\\CP\\CP.Entity\\CP.Entity.csproj": {
+                "projectPath": "C:\\SourceCode\\CP\\CP.Entity\\CP.Entity.csproj"
               }
             }
           }
@@ -189,25 +195,27 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\SourceCode\\CD\\CasosPrueba\\CP.Services\\CP.Services.csproj": {
+    "C:\\SourceCode\\CP\\CP.Services\\CP.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\SourceCode\\CD\\CasosPrueba\\CP.Services\\CP.Services.csproj",
+        "projectUniqueName": "C:\\SourceCode\\CP\\CP.Services\\CP.Services.csproj",
         "projectName": "CP.Services",
-        "projectPath": "C:\\SourceCode\\CD\\CasosPrueba\\CP.Services\\CP.Services.csproj",
-        "packagesPath": "C:\\Users\\aaperez\\.nuget\\packages\\",
-        "outputPath": "C:\\SourceCode\\CD\\CasosPrueba\\CP.Services\\obj\\",
+        "projectPath": "C:\\SourceCode\\CP\\CP.Services\\CP.Services.csproj",
+        "packagesPath": "C:\\Users\\DEV01\\.nuget\\packages\\",
+        "outputPath": "C:\\SourceCode\\CP\\CP.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\aaperez\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\DEV01\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -219,14 +227,14 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\SourceCode\\CD\\CasosPrueba\\CP.Data\\CP.Data.csproj": {
-                "projectPath": "C:\\SourceCode\\CD\\CasosPrueba\\CP.Data\\CP.Data.csproj"
+              "C:\\SourceCode\\CP\\CP.Data\\CP.Data.csproj": {
+                "projectPath": "C:\\SourceCode\\CP\\CP.Data\\CP.Data.csproj"
               },
-              "C:\\SourceCode\\CD\\CasosPrueba\\CP.Entity\\CP.Entity.csproj": {
-                "projectPath": "C:\\SourceCode\\CD\\CasosPrueba\\CP.Entity\\CP.Entity.csproj"
+              "C:\\SourceCode\\CP\\CP.Entity\\CP.Entity.csproj": {
+                "projectPath": "C:\\SourceCode\\CP\\CP.Entity\\CP.Entity.csproj"
               },
-              "C:\\SourceCode\\CD\\CasosPrueba\\CP.Infrastructure\\CP.Core.csproj": {
-                "projectPath": "C:\\SourceCode\\CD\\CasosPrueba\\CP.Infrastructure\\CP.Core.csproj"
+              "C:\\SourceCode\\CP\\CP.Infrastructure\\CP.Core.csproj": {
+                "projectPath": "C:\\SourceCode\\CP\\CP.Infrastructure\\CP.Core.csproj"
               }
             }
           }
@@ -254,7 +262,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
